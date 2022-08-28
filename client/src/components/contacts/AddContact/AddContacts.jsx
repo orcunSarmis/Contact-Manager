@@ -2,7 +2,7 @@ import React, { useState, useEffect }from "react";
 import { Link } from 'react-router-dom';
 
 import { useMutation } from '@apollo/client';
-import { ADD_CONTACT } from '../../../'
+import { ADD_CONTACT } from '../../../../utils/mutations';
 
 
 let AddContact = () => {
